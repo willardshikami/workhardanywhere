@@ -66,7 +66,9 @@ body {
 
 .head h1 {
     float: left;
-    padding: 50px;
+    padding: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -78,7 +80,7 @@ body {
 
 nav {
     float: right;
-    padding: 50px;
+    padding: 40px;
     font-size: 20px;
     text-transform: uppercase;
     word-spacing: 50px;
@@ -96,4 +98,19 @@ ul li {
 
 .head img {
     width: 100%;
+}
+
+/*
+  ========================================
+  Link
+  ========================================
+*/
+
+.head a {
+    color: #000;
+    text-decoration: none;
+}
+
+.head a:hover {
+    border: 2px solid #a91d1d;
 }
