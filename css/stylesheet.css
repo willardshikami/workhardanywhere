@@ -114,3 +114,53 @@ ul li {
 .head a:hover {
     border: 2px solid #a91d1d;
 }
+
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+.about-us h1,
+.contact-us h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-us h4,
+.contact-us h4 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.contact-us h1{
+}
+
+hr {
+    width: 80%;
+}
+
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+.about-us {
+    padding: 50px;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact-us {
+    padding: 50px;
+}
