@@ -143,14 +143,17 @@ ul li {
 }
 
 .contact-us h1{
+    text-align: center;
+}
+
+.contact-us h4 {
+    text-align: center;
 }
 
 hr {
     width: 80%;
 }
 
-.contact-us h4 {
- 
 
 /*
   ========================================
@@ -169,6 +172,7 @@ hr {
 */
 
 .contact-us {
+    background: #ddd;
     padding: 50px;
 }
 
