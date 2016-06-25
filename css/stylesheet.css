@@ -100,6 +100,11 @@ ul li {
     width: 100%;
 }
 
+.col-one img{
+    float: left;
+    width: 50%;
+}
+
 /*
   ========================================
   Link
@@ -144,6 +149,8 @@ hr {
     width: 80%;
 }
 
+.contact-us h4 {
+ 
 
 /*
   ========================================
@@ -163,4 +170,96 @@ hr {
 
 .contact-us {
     padding: 50px;
+}
+
+.col-two {
+    float: right;
+    width: 50%;
+
+}
+
+.contact-form {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+
+
+/*
+  ========================================
+  Form
+  ========================================
+*/
+
+form {
+    margin-bottom: 22px;
+}
+
+input,
+textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
+}
+
+.contact-group label {
+    color: #000;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.contact-group input,
+.contact-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
+.contact-group input,
+.contact-group textarea {
+    width: 80%;
+}
+
+
+contact-group textarea {
+    height: 78px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+.btn-default {
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px
+}
+
+.btn-default:hover {
+    background: #77a198;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.wha-footer p{
+    padding: 50px;
+    text-align: center
 }
