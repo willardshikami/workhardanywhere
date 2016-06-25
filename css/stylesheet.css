@@ -64,6 +64,29 @@ body {
 */
 
 
+.head h1 {
+    float: left;
+    padding: 50px;
+}
+
+
+/*
+  ========================================
+  navigation
+  ========================================
+*/
+
+nav {
+    float: right;
+    padding: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 50px;
+}
+
+ul li {
+    display: inline-block;
+}
 
 /*
   ========================================
@@ -71,3 +94,6 @@ body {
   ========================================
 */
 
+.head img {
+    width: 100%;
+}
