@@ -67,7 +67,7 @@ body {
 
 .head h1 {
     float: left;
-    padding: 40px;
+    padding: 20px;
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -81,7 +81,7 @@ body {
 
 nav {
     float: right;
-    padding: 40px;
+    padding: 30px;
     font-size: 20px;
     text-transform: uppercase;
     word-spacing: 50px;
@@ -223,7 +223,7 @@ textarea {
 
 .contact-group input,
 .contact-group textarea {
-    width: 80%;
+    width: 50%;
 }
 
 
