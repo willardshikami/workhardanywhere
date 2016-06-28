@@ -113,7 +113,8 @@ ul li {
 */
 
 .grid {
-  margin: 0 auto;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 .grid,
@@ -123,12 +124,10 @@ ul li {
 }
 
 .col-1-3 {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.col-1-3 {
-  width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 33.33%;
 }
 
 
